@@ -2,7 +2,25 @@
 	<head>
 	<link href="bootstrap.min.css" rel="stylesheet">
 	<title>zitKO.IN</title>
+
+
+	<!--
+           __    __      __    __   ______       ______  __    __ 
+          |  \  |  \    |  \  /  \ /      \     |      \|  \  |  \
+ ________  \$$ _| $$_   | $$ /  $$|  $$$$$$\     \$$$$$$| $$\ | $$
+|        \|  \|   $$ \  | $$/  $$ | $$  | $$      | $$  | $$$\| $$
+ \$$$$$$$$| $$ \$$$$$$  | $$  $$  | $$  | $$      | $$  | $$$$\ $$
+  /    $$ | $$  | $$ __ | $$$$$\  | $$  | $$      | $$  | $$\$$ $$
+ /  $$$$_ | $$  | $$|  \| $$ \$$\ | $$__/ $$ __  _| $$_ | $$ \$$$$
+|  $$    \| $$   \$$  $$| $$  \$$\ \$$    $$|  \|   $$ \| $$  \$$$
+ \$$$$$$$$ \$$    \$$$$  \$$   \$$  \$$$$$$  \$$ \$$$$$$ \$$   \$$											
+-->
+<style>
+	.thumbnail p { color: red; }
+</style>
+
 	</head>
+
 
 	<body>
 
@@ -107,10 +125,98 @@
 
 		</div>
 
+		<hr />
+
 		<div class="container text-center">
-		<h1>Join my community</h1>
-		<a href="https://t.me/joinchat/FvYntRE5Lkl5Ko92aZMWhg"><img width="100px" src="https://vignette.wikia.nocookie.net/logopedia/images/3/38/Msn_messenger_logo_2.jpg/revision/latest?cb=20120529142020"></a>
+			<h1>Join my community</h1>
+			<a href="https://t.me/joinchat/FvYntRE5Lkl5Ko92aZMWhg"><img width="100px" src="https://vignette.wikia.nocookie.net/logopedia/images/3/38/Msn_messenger_logo_2.jpg/revision/latest?cb=20120529142020"></a>
 		</div>
+
+		<hr />
+
+		<div class="container">
+			<h1>Store</h1>
+      <p>This is a store</p>
+
+      
+      <div class="row">
+        <div class="span4">
+            <p>Before purchase fill this form!</p>
+
+            <form class="form-horizontal">
+                <div class="control-group">
+                    <label class="control-label" for="inputName">Name</label>
+                    <div class="controls">
+                        <input type="text" id="inputName" placeholder="It's me Mario" required/>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="inputEmail">Email</label>
+                    <div class="controls">
+                        <input type="email" id="inputEmail" placeholder="me@myemail.com" required/>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="inputSize">Size</label>
+                    <div class="controls">
+                        <input type="text" id="inputSize" placeholder="XXXL" required/>
+                    </div>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+
+      <div class="row">
+          <div class="span4">
+              <div class="thumbnail">
+                  <img src="img/design1.png">
+                  <div class="caption">
+                      <h3>Vice</h3>
+                      <p>This is a special Vice design!</p>
+                      <button data-price="10000" data-design="1" class="btn btn-primary">10 000 XZT</button>
+                  </div>
+              </div>
+          </div>
+
+          <div class="span4">
+              <div class="thumbnail">
+                  <img src="img/design2.png">
+                  <div class="caption">
+                      <h3>Lambo drop</h3>
+                      <p>We aint dropn coins, we dropn lambos!</p>
+                      <button data-price="5000" data-design="2" class="btn btn-primary">5 000 XZT</button>
+                  </div>
+              </div>
+          </div>
+
+          <div class="span4">
+                <div class="thumbnail">
+                    <img src="img/design3.png">
+                    <div class="caption">
+                        <h3>Zitko.in special</h3>
+                        <p>Wow more lambos? What planet are we on?</p>
+                        <button data-price="5000" data-design="3" class="btn btn-primary">5 000 XZT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span4">
+                <div class="thumbnail">
+                    <img src="img/design4.png">
+                    <div class="caption">
+                        <h3>Zitko.in original</h3>
+                        <p>Plz my friend enjoy the classic design of zitko.in</p>
+                        <button data-price="4000" data-design="4" class="btn btn-primary">4 000 XZT</button>
+                    </div>
+                </div>
+            </div>
+      </div>
+		</div>
+
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38366677-6"></script>
 <script>
@@ -121,6 +227,9 @@
   gtag('config', 'UA-38366677-6');
 </script>
 
+	<script src="scripts/jquery-3.3.1.min.js"></script>
+	<script src="scripts/web3.js"></script>
+	<script src="scripts/script.js"></script>
 	</body>
 
 </html>
